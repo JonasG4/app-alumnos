@@ -75,7 +75,7 @@ export default function UserButton() {
           </div>
           {/* LOGOUT */}
           <Link
-            href="/api/auth/logout?returnTo=http://locahost:3000/auth/login&federated=true"
+            href="/api/auth/logout"
             className="flex items-center justify-center gap-2 w-full p-1 rounded-md bg-red-500 cursor-pointer hover:opacity-80 active:scale-95"
           >
             <LogoutIcon className={`w-3 fill-gray-50 text-gray-50`} />

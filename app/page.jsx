@@ -102,7 +102,6 @@ export default function HomePage() {
                 className="p-4 bg-red-500 rounded shadow-md transition-all flex flex-col items-center justify-center gap-2 hover:scale-110 duration-100 ease-in-out"
               >
                 <LogoutIcon className="w-6 fill-white text-white" />
-                {/* <p className="text-sm text-white font-medium">Cerrar sesion</p> */}
               </Link>
             </div>
           </div>
