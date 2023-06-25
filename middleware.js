@@ -11,14 +11,9 @@ export default withMiddlewareAuthRequired(async function middleware(req) {
     return NextResponse.redirect(new URL("/", req.url));
   }
 
-
-  if (!session) {
-    return NextResponse.redirect(new URL("/auth/login", req.url));
-  }
-
   return NextResponse.next();
 });
 
 export const config = {
-  matcher: ["/alumnos/:path*", "/", '/auth/login'],
+  matcher: ["/alumnos/:path*", "/",],
 };
