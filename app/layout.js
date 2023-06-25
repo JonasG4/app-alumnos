@@ -10,10 +10,6 @@ const barlow = Barlow({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Inicio | PRE UNIVO",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
